@@ -1,0 +1,177 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("imgs/headphones-mouse-orange-background.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
+
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+
+#name {
+  margin-left: 1rem;
+  color: #333;
+  font-size: 35px;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  padding: 0.8rem;
+  color: white;
+}
+
+header {
+
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 1.5rem;
+  font-weight: 400;
+}
+
+li {
+  list-style: none;
+  margin-left: 5rem;
+  margin-top: 0.67rem;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.574);
+}
+
+#signin {
+  background-color: #333;
+  /* border:1px solid lightgrey; */
+  color: #fff;
+  border-radius: 10px;
+  width: 100px;
+  height: 41px;
+  margin-right: 0.5rem;
+}
+
+.mainsection {
+  position: relative;
+  left: 32rem;
+  top: 1rem;
+  width: 25rem;
+  height: 18rem;
+  font-size: 25px;
+  color: #fff;
+}
+
+.main-button {
+  border-radius: 4px;
+  width: 150px;
+  height: 50px;
+  margin-top: 0.5rem;
+
+}
+
+p {
+  text-align: justify;
+
+}
+
+.btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+#btn1 {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+
+}
+
+#btn2 {
+  color: #333;
+  border: 1px solid #333;
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
+
+.section2 {
+
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  border: 1px solid white;
+  color: rgba(0, 0, 0, 0.751);
+  font-size: 16px;
+  font-weight: 100;
+  padding: 10px;
+
+}
+
+.section2-button {
+  width: 105px;
+  padding: 1px;
+  font-size: 18px;
+}
+
+.values {
+  margin-top: 0.5rem;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+#signin:hover {
+  width: 105x;
+  background-color: white;
+  border: 1.5px solid #333;
+  color: #333;
+  ;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+#btn2:hover {
+  background-color: #333;
+  color: rgb(255, 255, 255);
+  border: 1px solid rgb(255, 255, 255);
+  cursor: pointer;
+
+}
+
+#btn1:hover {
+  color: #333;
+  border: 1px solid #333;
+  background-color: rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+
+}
+
+.section2:hover {
+  border: 3px dashed white;
+}
+
+#logo {
+  width: 0.7rem;
+}
